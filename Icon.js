@@ -11,7 +11,7 @@ class Icon extends Component {
     const {style, color, name, ...props} = this.props;
     return (
       <Text {...props} style={[styles.icon, {color}, style]} ref={component => this._root = component}>
-        {name}
+        {Icons[name]}
       </Text>
     )
   }
