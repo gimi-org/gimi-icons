@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, StyleSheet } from 'react-native';
 
-import Icons from './FontAwesomeIcons';
+import Icons from './Futuramo';
 
 class Icon extends Component {
   setNativeProps(nativeProps) {
