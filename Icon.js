@@ -1,34 +1,28 @@
-import React, { Component } from 'react';
-import { Text, StyleSheet } from 'react-native';
+import React, {Component} from 'react'
+import {Text, StyleSheet} from 'react-native'
 
-import Icons from './Futuramo';
+import Icons from './Futuramo'
 
 class Icon extends Component {
   setNativeProps(nativeProps) {
-    this._root.setNativeProps(nativeProps);
+    this._root.setNativeProps(nativeProps)
   }
-
   render() {
-    const { style, color, children, ...props } = this.props;
-
+    const {style, color, name, ...props} = this.props;
     return (
-      <Text
-        {...props}
-        style={[styles.icon, { color }, style]}
-        ref={component => this._root = component}
-      >
-        {children}
+      <Text {...props} style={[styles.icon, {color}, style]} ref={component => this._root = component}>
+        {name}
       </Text>
-    );
+    )
   }
 }
 
 const styles = StyleSheet.create({
   icon: {
-    fontFamily:       'FontAwesome',
-    backgroundColor:  'transparent',
-  },
-});
+    fontFamily: 'FontAwesome',
+    backgroundColor: 'transparent'
+  }
+})
 
-export { Icons };
-export default Icon;
+export {Icons}
+export default Icon
