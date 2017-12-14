@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Text, StyleSheet} from 'react-native'
 
-import Icons from './Futuramo'
+import Icons from './SimpleLineIcons'
 
 class Icon extends Component {
   setNativeProps(nativeProps) {
@@ -19,7 +19,7 @@ class Icon extends Component {
 
 const styles = StyleSheet.create({
   icon: {
-    fontFamily: 'FontAwesome',
+    fontFamily: 'simple-line-icons',
     backgroundColor: 'transparent'
   }
 })
