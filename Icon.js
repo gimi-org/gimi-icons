@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import {Text, StyleSheet} from 'react-native'
-
-import Icons from './SimpleLineIcons'
+import Icons from './LinearIcons'
 
 class Icon extends Component {
   setNativeProps(nativeProps) {
@@ -9,17 +8,15 @@ class Icon extends Component {
   }
   render() {
     const {style, color, name, ...props} = this.props;
-    return (
-      <Text {...props} style={[styles.icon, {color}, style]} ref={component => this._root = component}>
-        {Icons[name]}
-      </Text>
-    )
+    return <Text {...props} style={[styles.icon, {color}, style]} ref={component => this._root = component}>
+      {Icons[name]}
+    </Text>
   }
 }
 
 const styles = StyleSheet.create({
   icon: {
-    fontFamily: 'simple-line-icons',
+    fontFamily: 'Linearicons',
     backgroundColor: 'transparent'
   }
 })
