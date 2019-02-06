@@ -1,4 +1,4 @@
-let Icons = {
+export default {
   iconHome: '\ue600',
   iconHome2: '\ue601',
   iconHome3: '\ue602',
@@ -143,6 +143,7 @@ let Icons = {
   iconStar: '\ue68d',
   iconStarHalf: '\ue68e',
   iconStarEmpty: '\ue68f',
+  iconStarFilled: '\ue9f9'
   iconFlag: '\ue690',
   iconFlag2: '\ue691',
   iconFlag3: '\ue692',
@@ -302,6 +303,7 @@ let Icons = {
   iconBabyBottle: '\ue72c',
   iconWalk: '\ue72d',
   iconHandWaving: '\ue72e',
+  iconHandwave: '\ue9f7',
   iconJump: '\ue72f',
   iconRun: '\ue730',
   iconWoman2: '\ue731',
@@ -567,6 +569,7 @@ let Icons = {
   iconSpeedMedium: '\ue835',
   iconSpeedFast: '\ue836',
   iconRocket: '\ue837',
+  iconRocketFilled: '\ue9f8',
   iconHammer2: '\ue838',
   iconBalance: '\ue839',
   iconBriefcase: '\ue83a',
@@ -1000,7 +1003,13 @@ let Icons = {
   iconBorderVertical: '\ue9e6',
   iconBorderRight: '\ue9e7',
   iconBorderNone: '\ue9e8',
-  iconEllipsis: '\ue9e9'
+  iconEllipsis: '\ue9e9',
+  icon3dGlassesFilled: '\ue9ea',
+  iconCashGimicoinb: '\ue9ef',
+  iconCoinGimicoin: '\ue9f0',
+  iconCardGimicoin: '\ue9ed',
+  iconBrainFilled: '\ue9ec',
+  iconHeartFilled: '\ue9f5',
+  iconWrenchFilled: '\ue9fa',
+  iconAlarmRingingFilled: '\ue9eb'
 }
-
-export default Icons
