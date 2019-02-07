@@ -143,7 +143,7 @@ export default {
   iconStar: '\ue68d',
   iconStarHalf: '\ue68e',
   iconStarEmpty: '\ue68f',
-  iconStarFilled: '\ue9f9'
+  iconStarFilled: '\ue9f9',
   iconFlag: '\ue690',
   iconFlag2: '\ue691',
   iconFlag3: '\ue692',
