@@ -1011,5 +1011,6 @@ export default {
   iconBrainFilled: '\ue9ec',
   iconHeartFilled: '\ue9f5',
   iconWrenchFilled: '\ue9fa',
-  iconAlarmRingingFilled: '\ue9eb'
+  iconAlarmRingingFilled: '\ue9eb',
+  iconPlanetFilled: '\ue9f6'
 }
