@@ -1014,5 +1014,6 @@ export default {
   iconAlarmRingingFilled: '\ue9eb',
   iconPlanetFilled: '\ue9f6',
   iconDumbbellFilled: '\ue9f2',
-  iconGameFilled: '\ue9f3'
+  iconGameFilled: '\ue9f3',
+  iconCardTopup: '\ue9ee'
 }
