@@ -1015,7 +1015,7 @@ export default {
   iconPlanetFilled: '\ue9f6',
   iconDumbbellFilled: '\ue9f2',
   iconGameFilled: '\ue9f3',
-  iconCardTopup: '\ue9ee'
+  iconCardTopup: '\ue9ee',
   iconConnection: '\ue9fc',
   iconSmileFilled: '\ue9f7',
   iconHearteyes: '\ue9fb',
