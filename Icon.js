@@ -6,7 +6,7 @@ class Icon extends Component {
   setNativeProps(nativeProps) {
     this._root.setNativeProps(nativeProps)
   }
-  render() {
+  render(): React$Element<*> {
     const {style, color, name, ...props} = this.props;
     return <Text {...props} allowFontScaling={false} style={[styles.icon, {color}, style]} ref={component => this._root = component}>
       {Icons[name]}
