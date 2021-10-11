@@ -1021,5 +1021,6 @@ export default {
   iconHearteyes: '\ue9fb',
   iconQrcode: '\ue9fd',
   iconFlash: '\ue9fe',
-  iconUserFilled: '\ue9ff'
+  iconUserFilled: '\ue9ff',
+  iconMap2Filled: '\uea00'
 }
