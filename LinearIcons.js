@@ -1022,5 +1022,6 @@ export default {
   iconQrcode: '\ue9fd',
   iconFlash: '\ue9fe',
   iconUserFilled: '\ue9ff',
-  iconMap2Filled: '\uea00'
+  iconMap2Filled: '\uea00',
+  iconInfo: '\ue9c0'
 }
