@@ -1023,5 +1023,6 @@ export default {
   iconFlash: '\ue9fe',
   iconUserFilled: '\ue9ff',
   iconMap2Filled: '\uea00',
-  iconInfo: '\uea01'
+  iconInfo: '\uea01',
+  iconPiggybank: '\uea02'
 }
