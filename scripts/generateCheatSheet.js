@@ -4,8 +4,11 @@ import { markdownTable } from "markdown-table";
 import { writeFile } from "fs/promises";
 import icons from "../LinearIcons.js";
 
+const ROW_CELL_LIMIT = 4;
+
 async function main() {
   const table = [];
+  const rowCellLimit = 4;
   let output = "# Cheat Sheet\n";
   let cellCount = 0;
   let tableRow = [];
@@ -26,7 +29,7 @@ async function main() {
       await ImageDataURI.outputFile(dataUri, `images/${key}.png`);
       tableRow.push(`![${key}](images/${key}.png)<br>${key}`);
       cellCount++;
-      if (cellCount === 5) {
+      if (cellCount === ROW_CELL_LIMIT) {
         table.push(tableRow);
         tableRow = [];
         cellCount = 0;
