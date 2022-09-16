@@ -40,7 +40,7 @@ async function main() {
   }
   table.push(tableRow);
 
-  output += markdownTable(table, { align: ["c", "c", "c", "c", "c"] });
+  output += markdownTable(table, { align: Array.fill("c", 0, ROW_CELL_LIMIT) });
 
   await writeFile("CHEAT_SHEET.md", output);
 }
