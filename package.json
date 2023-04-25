@@ -27,12 +27,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate-cheat-sheet": "node ./scripts/generateCheatSheet.js"
   },
-  "volta": {
-    "node": "16.17.0"
-  },
   "devDependencies": {
     "image-data-uri": "^2.0.1",
     "markdown-table": "^3.0.2",
     "text-to-image": "^5.2.0"
-  }
+  },
+  "volta": {
+    "node": "16.17.0",
+    "yarn": "1.22.19"
+  },
+  "packageManager": "yarn@3.5.0"
 }
